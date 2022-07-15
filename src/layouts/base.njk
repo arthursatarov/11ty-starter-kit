@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ lang or site.lang }}">
+<html lang="{{ lang or meta.lang }}">
 <head>
-  <title>{{ title or site.title }}</title>
+  <title>{{ title or meta.title }}</title>
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ description or site.description }}">
+  <meta name="description" content="{{ description or meta.description }}">
 
   {% include "head/open-graph.njk" %}
   {% include "head/favicon.njk" %}
