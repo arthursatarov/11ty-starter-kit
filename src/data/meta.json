@@ -1,0 +1,8 @@
+{
+  "type": "website",
+  "lang": "ru",
+  "title": "11ty Starter Kit",
+  "description": "Шаблон для разработки сайтов с помощью Eleventy, Nunjucks и CSS",
+  "url": "https://github.com/arthursatarov/11ty-starter-kit",
+  "image": "https://github.com/arthursatarov/11ty-starter-kit"
+}
