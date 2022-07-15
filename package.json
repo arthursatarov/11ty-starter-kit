@@ -1,0 +1,40 @@
+{
+  "name": "11ty-starter-kit",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthursatarov/11ty-starter-kit.git"
+  },
+  "author": "Arthur Satarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthursatarov/11ty-starter-kit/issues"
+  },
+  "homepage": "https://github.com/arthursatarov/11ty-starter-kit#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1",
+    "@babel/core": "^7.18.6",
+    "@babel/preset-env": "^7.18.6",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.19.0",
+    "gulp": "^4.0.2",
+    "gulp-newer": "^1.4.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-uglify": "^3.0.2",
+    "html-minifier": "^4.0.0",
+    "node-w3c-validator": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.4.14",
+    "postcss-csso": "^6.0.0",
+    "postcss-import": "^14.1.0",
+    "postcss-sort-media-queries": "^4.2.1",
+    "rimraf": "^3.0.2",
+    "stylelint": "^14.9.1",
+    "stylelint-order": "^5.0.0",
+    "webpack-stream": "^7.0.0"
+  },
+  "private": "true"
+}
