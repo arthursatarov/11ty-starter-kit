@@ -1,7 +1,7 @@
 {
   "name": "11ty-starter-kit",
   "version": "1.0.0",
-  "description": "",
+  "description": "Шаблон для разработки сайтов с помощью Eleventy, Nunjucks и CSS",
   "scripts": {},
   "repository": {
     "type": "git",
