@@ -2,7 +2,18 @@
   "name": "11ty-starter-kit",
   "version": "1.0.0",
   "description": "Шаблон для разработки сайтов с помощью Eleventy, Nunjucks и CSS",
-  "scripts": {},
+  "scripts": {
+    "start": "run-s clean dev",
+    "dev": "run-p dev:*",
+    "dev:11ty": "eleventy --serve --quiet",
+    "dev:gulp": "gulp",
+    "test": "run-s test:* -c",
+    "test:html": "node-w3c-validator -i ./dist/**/*.html -f lint -evH",
+    "test:css": "stylelint src/assets/styles/**/*.css",
+    "test:js": "eslint src/assets/scripts/**/*.js",
+    "build": "eleventy && gulp build",
+    "clean": "rimraf dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/arthursatarov/11ty-starter-kit.git"
